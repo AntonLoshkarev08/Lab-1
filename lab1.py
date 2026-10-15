@@ -68,7 +68,6 @@ def sequence():
     file = open('sequence.txt', 'r')
     nums_data = []
     for line in file:
-
         nums_data.append(float(line))
     sum1 = 0
     sum2 = 0
